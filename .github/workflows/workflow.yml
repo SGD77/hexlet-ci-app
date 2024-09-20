@@ -12,7 +12,7 @@ jobs:
             - run: make test
             - run: make lint
             - name: Hello from Hexlet
-              uses: actions/hexlet-components/hello-from-hexlet-action@release
+              uses: hexlet-components/hello-from-hexlet-action@release
             - name: Run Snyk to check for vulnerabilities
               uses: snyk/actions/node@master
               env:
